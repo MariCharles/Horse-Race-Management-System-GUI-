@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: #B2D2A4;">
+    <left>
+        <VBox prefHeight="359.0" prefWidth="500.0" spacing="10.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" lineSpacing="5.0" prefHeight="58.0" prefWidth="500.0" text="Welcome to the Most anticipated event in the town: &#10; 'Rapid Run'" textAlignment="CENTER">
+                <font>
+                    <Font name="Times New Roman Bold" size="18.0" />
+                </font></Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="500.0" text="----------Operations----------" textAlignment="JUSTIFY">
+                <font>
+                    <Font name="Times New Roman Bold Italic" size="20.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        AHD     Add Horse Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        UHD     Update Horse Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        DHD     Delete Horse Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        VHD     View Horse Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        SHD     Save Horse Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        SDD     Select Four Horses Randomly">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        WHD    Winning Horses' Details">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        VWH    Visualize Winning Horse">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+            <Label prefHeight="18.0" prefWidth="500.0" text="                                        ESC       Exit">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font></Label>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" spacing="10" />
+    </center>
+    <bottom>
+        <HBox prefHeight="35.0" prefWidth="500.0" spacing="10.0">
+            <VBox alignment="BASELINE_CENTER" prefHeight="35.0" prefWidth="105.0" />
+            <TextField fx:id="userInputField" alignment="CENTER">
+                <font>
+                    <Font name="Times New Roman" size="15.0" />
+                </font>
+            </TextField>
+            <Button fx:id="executeButton" contentDisplay="CENTER" prefHeight="26.0" prefWidth="80.0" text="GO!" style="-fx-background-color: #4caf50; -fx-text-fill: white;">
+                <font>
+                    <Font name="Times New Roman Bold" size="16.0" />
+                </font>
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets></Button>
+        </HBox>
+    </bottom>
+</BorderPane>
